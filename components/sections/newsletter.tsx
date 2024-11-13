@@ -33,7 +33,7 @@ export function Newsletter() {
   }
 
   return (
-    <section className="container py-12 lg:py-24">
+    <section className=" py-12 lg:py-24 w-full flex justify-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

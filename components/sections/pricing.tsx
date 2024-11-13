@@ -67,7 +67,7 @@ export function Pricing() {
   return (
     <section
       id="pricing"
-      className="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24"
+      className=" space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24 w-full flex justify-center"
     >
       <motion.div
         initial={{ opacity: 0, y: 20 }}

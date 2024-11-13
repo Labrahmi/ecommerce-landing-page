@@ -44,8 +44,8 @@ const companies = [
 
 export function SocialProof() {
   return (
-    <section className="py-24 sm:py-32">
-      <div className="container">
+    <section className="py-24 sm:py-32 w-full flex justify-center">
+      <div className="">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

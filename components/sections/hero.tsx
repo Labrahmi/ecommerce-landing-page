@@ -6,9 +6,9 @@ import { ArrowRight, BarChart2, Cloud, Shield } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pb-16 pt-24 sm:pb-24 sm:pt-32">
+    <section className="relative overflow-hidden pb-16 pt-24 sm:pb-24 sm:pt-32 w-full flex justify-center">
       <div className="hero-gradient absolute inset-0" />
-      <div className="container relative">
+      <div className=" relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

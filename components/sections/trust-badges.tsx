@@ -5,8 +5,8 @@ import { Shield, Lock, Award } from "lucide-react";
 
 export function TrustBadges() {
   return (
-    <section className="border-t bg-slate-50 py-12 dark:bg-transparent lg:py-24">
-      <div className="container">
+    <section className="border-t bg-slate-50 py-12 dark:bg-transparent lg:py-24 w-full flex justify-center">
+      <div className="">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

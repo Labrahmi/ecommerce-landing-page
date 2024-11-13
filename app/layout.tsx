@@ -50,7 +50,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main>{children}</main>
+          <main className='flex flex-col items-center'>{children}</main>
           <Footer />
           <Toaster />
         </ThemeProvider>

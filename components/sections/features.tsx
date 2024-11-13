@@ -51,8 +51,8 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="features-gradient py-24 sm:py-32">
-      <div className="container">
+    <section id="features" className="features-gradient py-24 sm:py-32 w-full flex justify-center">
+      <div className="">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
